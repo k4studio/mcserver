@@ -1,0 +1,86 @@
+:root {
+  --bg: #0f1216;
+  --text: #e7ecf3;
+  --accent: #32d74b;
+  --card: #1b212a;
+  --border: #2a323d;
+}
+
+body {
+  margin:0;
+  font-family: 'Press Start 2P', monospace;
+  background: var(--bg);
+  color: var(--text);
+}
+
+header {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:10px 20px;
+  background: var(--card);
+  border-bottom:1px solid var(--border);
+}
+
+header .logo {
+  font-size:14px;
+}
+
+nav a {
+  color: var(--text);
+  margin-left:15px;
+  text-decoration:none;
+}
+
+.hero {
+  text-align:center;
+  padding:60px 20px;
+}
+
+.hero h1 {
+  font-size:32px;
+  margin-bottom:20px;
+}
+
+.ip-box {
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  padding:10px 14px;
+  background: var(--card);
+  border:1px solid var(--border);
+  border-radius:8px;
+  margin-bottom:20px;
+}
+
+.btn {
+  display:inline-block;
+  padding:10px 14px;
+  background: var(--accent);
+  color: #0b0f11;
+  text-decoration:none;
+  border-radius:8px;
+}
+
+.features {
+  display:flex;
+  justify-content:space-around;
+  flex-wrap:wrap;
+  gap:10px;
+}
+
+.feature {
+  background: var(--card);
+  border:1px solid var(--border);
+  border-radius:8px;
+  padding:10px;
+  flex:1 1 200px;
+  text-align:center;
+}
+
+footer {
+  text-align:center;
+  padding:20px;
+  background: var(--card);
+  border-top:1px solid var(--border);
+}
