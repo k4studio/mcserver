@@ -5,12 +5,12 @@ const CONFIG = {
 };
 
 // Вставка IP
-document.getElementById('server-ip').textContent = CONFIG.ip;
-document.getElementById('server-ip-inline').textContent = CONFIG.ip;
+document.getElementById('server-ip').textContent = ip;
+document.getElementById('server-ip-inline').textContent = ip;
 
 // Кнопка копіювання
 document.getElementById('copy-ip').addEventListener('click', async () => {
-  await navigator.clipboard.writeText(CONFIG.ip);
+  await navigator.clipboard.writeText(ip);
   alert('нікнейм скопійовано');
 });
 
