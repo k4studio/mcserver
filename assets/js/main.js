@@ -1,6 +1,6 @@
 const CONFIG = {
   name: 'ZielonaGora',
-  ip: 'hiiiiiiiiiiiiiiii',
+  ip: '---',
   discord: 'https://discord.gg/3T8Dj4tCEj'
 };
 
