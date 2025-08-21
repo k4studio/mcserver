@@ -1,7 +1,7 @@
 const CONFIG = {
-  name: 'Назва сервера',
-  ip: 'play.example.net',
-  discord: 'https://discord.gg/yourinvite'
+  name: 'ZielonaGora',
+  ip: '---',
+  discord: 'https://discord.gg/3T8Dj4tCEj'
 };
 
 // Вставка IP
@@ -11,7 +11,7 @@ document.getElementById('server-ip-inline').textContent = CONFIG.ip;
 // Кнопка копіювання
 document.getElementById('copy-ip').addEventListener('click', async () => {
   await navigator.clipboard.writeText(CONFIG.ip);
-  alert('IP скопійовано');
+  alert('нікнейм скопійовано');
 });
 
 // Рік у футері
